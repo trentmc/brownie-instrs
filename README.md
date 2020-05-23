@@ -20,8 +20,13 @@ virtualenv venv
 
 ## Get going in new session
 
-Activate env't, ensure 
+Activate env't
 ```console
-source venv/bin/activate [[activate env't]
-pip install -r requirements.txt [[install/update packages into "venv"]]
+source venv/bin/activate 
+pip install -r requirements.txt 
+```
+
+Update packages in env't
+```console
+pip install -r requirements.txt 
 ```
