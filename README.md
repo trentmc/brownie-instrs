@@ -1,4 +1,4 @@
-# brownie-play
+# brownie-instrs
 This repo has instructions of how to install and play with Brownie. Use other repos for specific Brownie projects.
 
 # Installation
