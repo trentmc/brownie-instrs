@@ -103,6 +103,9 @@ brownie run token
 ```
 
 Launch Brownie console.
+```
+brownie console
+```
 
 ## Explore Brownie's functionality
 
