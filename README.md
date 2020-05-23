@@ -7,12 +7,7 @@ Update packages
 ```console
 sudo apt-get update && sudo apt-get upgrade
 sudo apt-get install python3.8
-sudo apt-get install python3-venv
-```
-
-Get code
-```console
-git clone https://github.com/oceanprotocol/brownie-play.git
+sudo apt-get install python3.8-venv
 ```
 
 Always use Python3.8
@@ -20,6 +15,12 @@ Always use Python3.8
 alias python=python3.8
 su
 alias python=python3.8
+```
+
+Get code
+```console
+git clone https://github.com/oceanprotocol/brownie-play.git
+cd brownie-play
 ```
 
 Initalize virtual env't
