@@ -4,7 +4,7 @@ Play with Brownie
 # Installation
 
 ```console
-git clone 
+git clone https://github.com/oceanprotocol/brownie-play.git
 ```
 
 Upgrade pip
