@@ -36,7 +36,7 @@ We need nodejs >= 6.11.5 to run ganache-cli. [Here's](https://docs.npmjs.com/dow
 
 Install ganache-cli:
 ```console
-npm install -g ganache-cli
+sudo npm install -g ganache-cli
 ```
 
 ## Get code
