@@ -54,7 +54,7 @@ python -m venv myenv
 
 ```console
 source myenv/bin/activate 
-pip install -r requirements.txt 
+pip install -r myenv_requirements.txt 
 ```
 
 
