@@ -8,6 +8,7 @@ Play with Brownie
 sudo apt-get update && sudo apt-get upgrade
 sudo apt-get install python3.8
 sudo apt-get install python3.8-venv
+sudo apt-get install python3-pip
 ```
 
 ## Use latest version of Python (3.8)
@@ -19,8 +20,10 @@ python --version
 If it isn't 3.8, then:
 ```console
 alias python=python3.8
+alias python3=python3.8
 su
 alias python=python3.8
+alias python3=python3.8
 ```
 
 ## Brownie needs
@@ -54,7 +57,12 @@ python -m venv myenv
 
 ```console
 source myenv/bin/activate 
-pip install -r myenv_requirements.txt 
+
+[[unneeded: python3.8 has pipx]] python -m pip install --user pipx
+[[unneeded: python3.8 has ensurepath]] python -m pipx ensurepath
+[[unneeded: no other reqts right now]] pip install -r myenv_requirements.txt 
+
+pipx install eth-brownie
 ```
 
 
