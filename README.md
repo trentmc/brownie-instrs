@@ -1,5 +1,5 @@
 # brownie-play
-Play with Brownie
+This repo has instructions of how to install and play with Brownie. Use other repos for specific Brownie projects.
 
 # Installation
 
