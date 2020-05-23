@@ -1,7 +1,7 @@
 # brownie-play
 Play with Brownie
 
-# Installation
+## Installation
 
 Update packages
 ```console
@@ -36,7 +36,7 @@ pip install -r requirements.txt
 ```
 
 
-# Wind down session
+## Wind down session
 
 Turn off env't
 ```console
