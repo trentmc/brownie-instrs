@@ -62,7 +62,9 @@ cd brownie-play
 
 # Build / play
 
-Go nuts:)
+Some actions here:
+* Coding in to this repo, with git and friends
+* Brownie tutorials [1](https://medium.com/@iamdefinitelyahuman/getting-started-with-brownie-part-1-9b2181f4cb99), [2](https://medium.com/better-programming/getting-started-with-brownie-part-2-615a1eec167f), [3](https://medium.com/better-programming/getting-started-with-brownie-part-3-ef6bfa9867d7)
 
 # Appendix: Currently Unneeded
 
