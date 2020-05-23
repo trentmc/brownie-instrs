@@ -82,6 +82,8 @@ Note: Brownie automatically tracks the files in your project’scontracts/ folde
 
 These can be in any order.
 
+Ensure that `python` uses Python 3.8. If not, use alias like above.
+
 ## Play with `token` project
 
 Go to project directory
