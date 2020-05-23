@@ -80,11 +80,24 @@ Note: Brownie automatically tracks the files in your project’scontracts/ folde
 
 # Build / play
 
-We can run tests on the token project:
+These can be in any order.
+
+## Play with token project
+
+Go to project directory
 ```
 cd token
+```
+
+Run tests, optionally showing code coverage
+```
 brownie test
 brownie test --coverage
+```
+
+Run the deployment script
+```
+brownie run token
 ```
 
 More things to do:
