@@ -30,3 +30,10 @@ Update packages in env't
 ```console
 pip install -r requirements.txt 
 ```
+
+# Wind down session
+
+Turn off env't
+```console
+deactivate
+```
