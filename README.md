@@ -5,22 +5,6 @@ This repo has instructions of how to install and play with Brownie. Use other re
 
 [Install Brownie & dependencies](README_install.md)
 
-# Prepare
-
-With each new terminal:
-
-```console
-python --version
-```
-
-If this return 3.8, then do: (also in su?)
-```console
-alias python=python3.8
-alias python3=python3.8
-```
-
-Note: we can't put this into .bashrc because Ubuntu needs python2.7 in some places. 
-
 # Bake Existing Brownie Token
 This is part of [Brownie tutorial 2](https://medium.com/better-programming/getting-started-with-brownie-part-2-615a1eec167f).
 
