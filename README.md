@@ -82,7 +82,7 @@ Note: Brownie automatically tracks the files in your project’scontracts/ folde
 
 These can be in any order.
 
-## Play with token project
+## Play with `token` project
 
 Go to project directory
 ```
