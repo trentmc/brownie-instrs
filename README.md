@@ -1,16 +1,26 @@
 # brownie-play
 Play with Brownie
 
-## Installation
+# Installation
 
 ```console
-python -m pip install --upgrade pip [[update pip]
+git clone 
+```
+
+Upgrade pip
+```console
+python -m pip install --upgrade pip
+```
+
+Initalize virtual env't
+```console
 pip install virtualenv
-virtualenv venv [[create folder for virtual env't "venv"]
+virtualenv venv 
 ```
 
 ## Get going in new session
 
+Activate env't, ensure 
 ```console
 source venv/bin/activate [[activate env't]
 pip install -r requirements.txt [[install/update packages into "venv"]]
