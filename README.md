@@ -31,7 +31,6 @@ python -m venv myenv
 ## Get going in new session
 
 ```console
-alias python="/usr/bin/python3.8"
 source myenv/bin/activate 
 pip install -r requirements.txt 
 ```
