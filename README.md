@@ -64,8 +64,7 @@ This is part of [Brownie tutorial 2](https://medium.com/better-programming/getti
 
 ## Bake token
 
-
-Initialize ['token-mix'](https://github.com/brownie-mix/token-mix), a simple ERC20 project in Brownie
+We could use 'brownie init' to start our own Brownie project. But for now let's use ['token-mix'](https://github.com/brownie-mix/token-mix), a simple pre-created project to play with ERC20.
 ```
 brownie bake token
 cd token
@@ -78,11 +77,19 @@ brownie compile
 
 Note: Brownie automatically tracks the files in your project’scontracts/ folder and will run the compiler when a file is added or changed. There isn’t often a need to manually compile — but it’s still good to know how.
 
+
 # Build / play
+
+We can run tests on the token project:
+```
+cd token
+brownie test
+brownie test --coverage
+```
 
 Some actions here:
 * Coding in to this repo, with git and friends
-* Brownie tutorials [1](https://medium.com/@iamdefinitelyahuman/getting-started-with-brownie-part-1-9b2181f4cb99), [2](https://medium.com/better-programming/getting-started-with-brownie-part-2-615a1eec167f), [3](https://medium.com/better-programming/getting-started-with-brownie-part-3-ef6bfa9867d7)
+* [Brownie Tutorial 3](https://medium.com/better-programming/getting-started-with-brownie-part-3-ef6bfa9867d7)
 
 # Appendix: Currently Unneeded
 
@@ -96,6 +103,7 @@ python -m venv myenv
 Get going in new session
 ```console
 source myenv/bin/activate 
+<<create and fill myenv_requirements.txt>>
 pip install -r myenv_requirements.txt 
 ```
 
