@@ -100,7 +100,7 @@ Run the deployment script
 brownie run token
 ```
 
-More things to do:
+## More things to do
 * Coding in to this repo, with git and friends
 * [Brownie Tutorial 3](https://medium.com/better-programming/getting-started-with-brownie-part-3-ef6bfa9867d7)
 
