@@ -1,6 +1,9 @@
 #Backup files
 *~
 
+#Environment
+myenv/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
