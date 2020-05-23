@@ -7,6 +7,7 @@ Play with Brownie
 ```console
 sudo apt-get update && sudo apt-get upgrade
 sudo apt-get install python3.8
+sudo apt-get install python3.8-dev
 sudo apt-get install python3.8-venv
 sudo apt-get install python3-pip
 ```
@@ -46,6 +47,11 @@ Install pipx:
 ```console
 python -m pip install --user pipx
 python -m pipx ensurepath
+```
+
+Install Brownie:
+```console
+pipx install eth-brownie
 ```
 
 ## Get code
