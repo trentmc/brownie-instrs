@@ -60,27 +60,26 @@ git clone https://github.com/oceanprotocol/brownie-play.git
 cd brownie-play
 ```
 
-## Initalize virtual env't
+# Build / play
+
+Go nuts:)
+
+# Appendix: Currently Unneeded
+
+## Virtual Env't 
+
+Initalize virtual env't
 ```console
 python -m venv myenv
 ```
 
-# Get going in new session
-
+Get going in new session
 ```console
 source myenv/bin/activate 
-
-[[unneeded: python3.8 has pipx]] python -m pip install --user pipx
-[[unneeded: python3.8 has ensurepath]] python -m pipx ensurepath
-[[unneeded: no other reqts right now]] pip install -r myenv_requirements.txt 
-
-pipx install eth-brownie
+pip install -r myenv_requirements.txt 
 ```
 
-
-# Wind down session
-
-Turn off env't
+Wind down session // turn off env't
 ```console
 deactivate
 ```
