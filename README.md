@@ -7,7 +7,6 @@ Update packages
 ```console
 sudo apt-get update && sudo apt-get upgrade
 sudo apt-get install python3.8
-alias python="/usr/bin/python3.8"
 sudo apt-get install python3-venv
 ```
 
@@ -16,28 +15,24 @@ Get code
 git clone https://github.com/oceanprotocol/brownie-play.git
 ```
 
-Upgrade pip (?)
+Always use Python3.8
 ```console
-python3.8 -m pip install --upgrade pip
+alias python="/usr/bin/python3.8"
 ```
 
 Initalize virtual env't
 ```console
-python3.8 -m venv brownie-play-env
+python -m venv brownie-play-env
 ```
 
 ## Get going in new session
 
-Activate env't (?)
 ```console
-source venv/bin/activate 
-pip install -r requirements.txt 
+alias python="/usr/bin/python3.8"
+source brownie-play-env/bin/activate 
+[??] pip install -r requirements.txt 
 ```
 
-Update packages in env't
-```console
-pip install -r requirements.txt 
-```
 
 # Wind down session
 
