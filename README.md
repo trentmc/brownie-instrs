@@ -21,10 +21,8 @@ alias python3=python3.8
 
 Note: we can't put this into .bashrc because Ubuntu needs python2.7 in some places. 
 
-# Brownie Usage
+# Bake Existing Brownie Token
 This is part of [Brownie tutorial 2](https://medium.com/better-programming/getting-started-with-brownie-part-2-615a1eec167f).
-
-## Bake token
 
 We could use `brownie init` to start our own Brownie project. But for now let's use [`token-mix`](https://github.com/brownie-mix/token-mix), a simple pre-created project to play with ERC20.
 ```
@@ -42,7 +40,7 @@ Note: Brownie automatically tracks the files in your project’scontracts/ folde
 
 # Build / play
 
-These can be in any order.
+Subsections below can be in any order.
 
 Ensure that `python` uses Python 3.8. If not, use alias like above.
 
