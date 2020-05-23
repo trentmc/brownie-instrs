@@ -20,7 +20,7 @@ Check python version
 python --version
 ```
 
-If it isn't 3.8, then:
+If it isn't 3.8, then do the following. (We can't put this into .bashrc because Ubuntu needs python2.7 in some places :/ )
 ```console
 alias python=python3.8
 alias python3=python3.8
@@ -28,6 +28,8 @@ su
 alias python=python3.8
 alias python3=python3.8
 ```
+
+ 
 
 Install pipx:
 ```console
