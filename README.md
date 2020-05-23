@@ -3,6 +3,13 @@ Play with Brownie
 
 # Installation
 
+Update packages, including python
+```console
+sudo apt-get update && sudo apt-get upgrade
+sudo apt-get install python3.7
+```
+
+Get code
 ```console
 git clone https://github.com/oceanprotocol/brownie-play.git
 ```
