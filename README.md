@@ -42,6 +42,12 @@ Install ganache-cli:
 sudo npm install -g ganache-cli
 ```
 
+Install pipx:
+```console
+python -m pip install --user pipx
+python -m pipx ensurepath
+```
+
 ## Get code
 ```console
 git clone https://github.com/oceanprotocol/brownie-play.git
