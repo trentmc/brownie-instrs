@@ -17,8 +17,8 @@ git clone https://github.com/oceanprotocol/brownie-play.git
 
 Always use Python3.8
 ```console
-alias python="/usr/bin/python3.8"
-sudo alias python="/usr/bin/python3.8"
+alias python=python3.8
+sudo alias python=python3.8
 ```
 
 Initalize virtual env't
