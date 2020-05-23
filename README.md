@@ -25,15 +25,15 @@ cd brownie-play
 
 Initalize virtual env't
 ```console
-python -m venv brownie-play-env
+python -m venv myenv
 ```
 
 ## Get going in new session
 
 ```console
 alias python="/usr/bin/python3.8"
-source brownie-play-env/bin/activate 
-[??] pip install -r requirements.txt 
+source myenv/bin/activate 
+pip install -r requirements.txt 
 ```
 
 
