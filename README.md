@@ -95,10 +95,12 @@ brownie test
 brownie test --coverage
 ```
 
-Run the deployment script
+Run the deployment script. 
 ```
 brownie run token
 ```
+
+Note that it deploys to Ganache. To deploy to a live network, use --network flag. 
 
 ## More things to do
 * Coding in to this repo, with git and friends
