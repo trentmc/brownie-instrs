@@ -3,10 +3,10 @@ Play with Brownie
 
 # Installation
 
-Update packages, including python
+Update packages, including python3
 ```console
 sudo apt-get update && sudo apt-get upgrade
-sudo apt-get install python3.7
+sudo apt-get install python3.8
 ```
 
 Get code
@@ -14,20 +14,19 @@ Get code
 git clone https://github.com/oceanprotocol/brownie-play.git
 ```
 
-Upgrade pip
+Upgrade pip (?)
 ```console
-python -m pip install --upgrade pip
+python3.8 -m pip install --upgrade pip
 ```
 
 Initalize virtual env't
 ```console
-pip install virtualenv
-virtualenv venv 
+python3.8 -m venv brownie-play-env
 ```
 
 ## Get going in new session
 
-Activate env't
+Activate env't (?)
 ```console
 source venv/bin/activate 
 pip install -r requirements.txt 
