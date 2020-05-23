@@ -3,10 +3,12 @@ Play with Brownie
 
 # Installation
 
-Update packages, including python3
+Update packages
 ```console
 sudo apt-get update && sudo apt-get upgrade
 sudo apt-get install python3.8
+alias python="/usr/bin/python3.8"
+sudo apt-get install python3-venv
 ```
 
 Get code
