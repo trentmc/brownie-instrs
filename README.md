@@ -28,7 +28,7 @@ alias python3=python3.8
 ```
 
 ## Brownie needs
-Do installs as [Brownie requests](https://medium.com/@iamdefinitelyahuman/getting-started-with-brownie-part-1-9b2181f4cb99). These include the following.
+Do installs as [Brownie tutorial 1 asks](https://medium.com/@iamdefinitelyahuman/getting-started-with-brownie-part-1-9b2181f4cb99). These include the following.
 
 Check that npm and nodejs are installed. 
 ```console
@@ -58,6 +58,15 @@ pipx install eth-brownie
 ```console
 git clone https://github.com/oceanprotocol/brownie-play.git
 cd brownie-play
+```
+
+## Bake token
+(This is part of [Brownie tutorial 2](https://medium.com/better-programming/getting-started-with-brownie-part-2-615a1eec167f)).
+
+Initialize ['token-mix'](https://github.com/brownie-mix/token-mix), a simple ERC20 project in Brownie
+```
+brownie bake token
+cd token
 ```
 
 # Build / play
