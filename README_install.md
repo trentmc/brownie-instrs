@@ -13,6 +13,7 @@ sudo apt-get install python3.8
 sudo apt-get install python3.8-dev
 sudo apt-get install python3.8-venv
 sudo apt-get install python3-pip
+sudo apt-get install python3-apt
 ```
 
 Check python version
