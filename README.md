@@ -18,7 +18,7 @@ Compile the project.
 brownie compile
 ```
 
-Note: Brownie automatically tracks the files in your project’scontracts/ folder and will run the compiler when a file is added or changed. There isn’t often a need to manually compile — but it’s still good to know how.
+Note: Brownie auto tracks the files in your project’s `contracts/` folder and will run the compiler when a file is added or changed. There isn’t often a need to manually compile — but it’s still good to know how.
 
 
 # Build / play
