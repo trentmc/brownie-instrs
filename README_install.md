@@ -2,7 +2,7 @@
 
 Here, we install Brownie and dependencies.
 
-This includes going through the key steps of [Brownie tutorial 1](https://medium.com/@iamdefinitelyahuman/getting-started-with-brownie-part-1-9b2181f4cb99). 
+This includes going through the key steps of [Brownie tutorial 1](https://medium.com/@iamdefinitelyahuman/getting-started-with-brownie-part-1-9b2181f4cb99). It also addresses gotchas that I encountered when installing.
 
 ## Update Python packages
 
