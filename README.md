@@ -26,8 +26,6 @@ Note: Brownie auto tracks the files in your project’s `contracts/` folder and 
 
 Subsections below can be in any order.
 
-Ensure that `python` uses Python 3.8. If not, use alias like above.
-
 ## Play with `token` project
 
 Go to project directory
@@ -55,26 +53,3 @@ brownie console
 
 [See Brownie Tutorial 3](https://medium.com/better-programming/getting-started-with-brownie-part-3-ef6bfa9867d7)
 
-## Play more in this repo
-Code!
-
-# Appendix: Currently Unneeded
-
-## Virtual Env't 
-
-Initalize virtual env't
-```console
-python -m venv myenv
-```
-
-Get going in new session
-```console
-source myenv/bin/activate 
-<<create and fill myenv_requirements.txt>>
-pip install -r myenv_requirements.txt 
-```
-
-Wind down session // turn off env't
-```console
-deactivate
-```
