@@ -1,6 +1,5 @@
 # brownie-instrs
-This repo has instructions of how to install and play with Brownie. Use other repos for specific Brownie projects.
-
+This repo has instructions of how to install and play with Brownie. 
 # Installation
 
 [Install Brownie & dependencies](README_install.md)
