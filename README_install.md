@@ -56,7 +56,5 @@ pipx install eth-brownie
 ```
 
 ## Get this repo
-```console
-git clone https://github.com/oceanprotocol/brownie-play.git
-cd brownie-play
-```
+
+Clone this repo, then cd into the directory and play:)
